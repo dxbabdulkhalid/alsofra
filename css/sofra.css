@@ -1,0 +1,72 @@
+.trynow {
+    background-color: #ED1C24;
+    width: 105px;
+    color: white;
+}
+.Login {
+    border-color: #ED1C24;
+    margin-right: 20px;
+    width: 105px;
+    color: #ED1C24;
+}
+.getstart{
+    background-color: #323B49;
+    border-bottom: 3px solid #8c8b8b;
+}
+.endsetion{
+    background-color: #323B49;
+}
+.culturemoney{
+    color:#ED1C24;
+}
+.btn-success {
+    background-color: #40B433;
+}
+
+.tc{
+    font-size: 10px;
+}
+.tc img{
+    height: 6px;
+}
+.green2{
+    color: #40B433;
+}
+.red1{
+    color: #ED1C24;
+}
+.color1{
+    background-color:#F7F7F7;
+}
+.imoji img {
+    height: 68px;
+}
+.loginbutton {
+    background-color: #ED1C24;
+    border-radius: 13px;
+    border-color: #ED1C24;
+    color: white;
+}
+.gggg{
+    border-radius: 13px;
+}
+.socialm img {
+    height: 8px;
+}
+.socialm p {
+    font-size: 12px;
+}
+.endpage{
+    color: white;
+    font-size: 10px;
+    margin-top: 40px;
+}
+.jumbotron{
+    background-image: url(../assets/Group11961.png);
+}
+.apps {
+    height: 35px;
+}
+.apps1{
+    height: 35px;
+}
