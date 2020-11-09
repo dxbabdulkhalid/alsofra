@@ -1,15 +1,52 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../assets/fonts/SFProText-Regular.woff2') format('woff2'),
+        url('../assets/fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../assets/fonts/SFProText-Bold.woff2') format('woff2'),
+        url('../assets/fonts/SFProText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../assets/fonts/SFProText-Light.woff2') format('woff2'),
+        url('../assets/fonts/SFProText-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
-    font-family: sf pro text;
+    font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+}
+
+
+
+.buisnessnav {
+    font-size: 0.875rem;
+    width: auto;
+    font-weight: bold;
 }
 .trynow {
     background-color: #ED1C24;
-    width: 105px;
     color: white;
+    min-width: 100px;
+    width: 100%;
 }
 .Login {
     border-color: #ED1C24;
     margin-right: 20px;
-    width: 105px;
+    min-width: 100px;
+    width: 100%;
     color: #ED1C24;
 }
 .getstart{
@@ -34,6 +71,7 @@ body{
 }
 .green2{
     color: #40B433;
+    font-size: 18px;
 }
 .red1{
     color: #ED1C24;
@@ -50,11 +88,11 @@ body{
     border-color: #ED1C24;
     color: white;
 }
-.gggg{
+.enteremail{
     border-radius: 13px;
 }
 .socialm img {
-    height: 8px;
+    height: 18px;
 }
 .socialm p {
     font-size: 12px;
@@ -68,8 +106,26 @@ body{
     background-image: url(../assets/Group11961.png);
 }
 .apps {
-    height: 35px;
+    height: 40px;
 }
 .apps1{
-    height: 35px;
+    height: 40px;
+}
+.learnbtns {
+    background-color: #ED1C24;
+    border:#ED1C24;
+}
+
+h2 span{
+    font-size: 2.5rem !important;
+}
+
+h2 span:nth-child(n+2){
+    font-size: 2.1rem !important;
+}
+h2{
+    font-size: 2.1rem;
+}
+p{
+    font-size: 14px;
 }
