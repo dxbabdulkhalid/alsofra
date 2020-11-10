@@ -90,6 +90,9 @@ body{
 }
 .enteremail{
     border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .socialm img {
     height: 18px;
