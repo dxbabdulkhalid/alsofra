@@ -27,9 +27,36 @@
 
 body{
     font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+    margin-top: 67px;
 }
 
+#navbarSupportedContent .row{
+    width: 100%;
+}
 
+#navbarSupportedContent .row div[class="col-*"]{
+    text-align: right;
+}
+
+#navbarSupportedContent  .main-menu {    
+    width: 80%;
+}
+
+#navbarSupportedContent  .cta{
+    margin-left: 9px;
+}
+
+@media only screen and (max-width: 576px) { 
+    #navbarSupportedContent  .main-menu {    
+        width: auto;
+        margin-top: 10px;
+    }
+    #navbarSupportedContent  .cta {
+        margin: 0;
+        text-align: center;
+    }
+
+ }
 
 .buisnessnav {
     font-size: 0.875rem;
@@ -106,6 +133,11 @@ body{
     border:#ED1C24;
 }
 
+.learnbtns:hover{
+    background-color: #40B433;
+    border:#40B433;
+}
+
 h2 span{
     font-size: 2.5rem !important;
 }
@@ -116,9 +148,8 @@ h2 span:nth-child(n+2){
 h2{
     font-size: 2.1rem;
 }
-p{
-    font-size: 14px;
-}
+
+
 
 /* footer */
 footer{
