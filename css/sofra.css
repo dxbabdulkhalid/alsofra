@@ -53,9 +53,8 @@ body{
     background-color: #323B49;
     border-bottom: 3px solid #8c8b8b;
 }
-.endsetion{
-    background-color: #323B49;
-}
+
+
 .culturemoney{
     color:#ED1C24;
 }
@@ -84,15 +83,11 @@ body{
 }
 .loginbutton {
     background-color: #ED1C24;
-    border-radius: 13px;
     border-color: #ED1C24;
     color: white;
 }
 .enteremail{
-    border-radius: 13px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   width: 68% !important;
 }
 .socialm img {
     height: 18px;
@@ -100,20 +95,12 @@ body{
 .socialm p {
     font-size: 12px;
 }
-.endpage{
-    color: white;
-    font-size: 10px;
-    margin-top: 40px;
-}
+
 .jumbotron{
     background-image: url(../assets/Group11961.png);
 }
-.apps {
-    height: 40px;
-}
-.apps1{
-    height: 40px;
-}
+
+
 .learnbtns {
     background-color: #ED1C24;
     border:#ED1C24;
@@ -131,4 +118,32 @@ h2{
 }
 p{
     font-size: 14px;
+}
+
+/* footer */
+footer{
+    background-color: #323B49;
+    color: #fff;
+}
+
+footer h6
+{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+footer ul li a:hover {
+    color: #fff;
 }
