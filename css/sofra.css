@@ -28,6 +28,7 @@
 body{
     font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
     margin-top: 67px;
+    overflow-x: hidden;
 }
 
 #navbarSupportedContent .row{
