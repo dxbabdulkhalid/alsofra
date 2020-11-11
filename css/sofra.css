@@ -116,12 +116,7 @@ body{
 .enteremail{
    width: 68% !important;
 }
-.socialm img {
-    height: 18px;
-}
-.socialm p {
-    font-size: 12px;
-}
+
 
 .jumbotron{
     background-image: url(../assets/Group11961.png);
@@ -155,6 +150,7 @@ h2{
 footer{
     background-color: #323B49;
     color: #fff;
+    padding-bottom: 20px;
 }
 
 footer h6
@@ -176,5 +172,13 @@ footer ul li a {
 }
 
 footer ul li a:hover {
+    color: #fff;
+}
+
+.socialm  {
+    font-size: 11px;
+}
+
+.socialm a {
     color: #fff;
 }
