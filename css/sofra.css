@@ -24,6 +24,9 @@
     font-style: normal;
     font-display: swap;
 }
+html{
+    overflow-x:hidden;
+}
 
 body{
     font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
