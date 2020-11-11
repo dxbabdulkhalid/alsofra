@@ -124,8 +124,9 @@ body{
 
 .jumbotron{
     background-image: url(../assets/Group11961.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .learnbtns {
     background-color: #ED1C24;
