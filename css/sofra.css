@@ -25,7 +25,7 @@
     font-display: swap;
 }
 html{
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -43,11 +43,14 @@ body{
 }
 
 #navbarSupportedContent  .main-menu {    
-    width: 80%;
+    width: auto;
+    margin-right: 0;
 }
 
-#navbarSupportedContent  .cta{
-    margin-left: 9px;
+}
+.trynowbtn:hover{
+    background-color: #40B433;
+    border:#40B433;
 }
 
 @media only screen and (max-width: 576px) { 
@@ -127,6 +130,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .learnbtns {
     background-color: #ED1C24;
