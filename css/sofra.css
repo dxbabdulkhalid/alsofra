@@ -66,6 +66,10 @@ body{
         text-align: center;
     }
 
+    #navbarSupportedContent  .cta button{
+        width: 50% !important;
+    }
+
  }
 
 .buisnessnav {
@@ -100,7 +104,7 @@ body{
 }
 .greenbtn1 {
     font-size: 20px;
-    height: 50px;
+    padding: 5px;
 }
 
 .tc{
