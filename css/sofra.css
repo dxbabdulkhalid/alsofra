@@ -26,6 +26,7 @@
 }
 html{
     overflow-x: hidden;
+
 }
 
 body{
@@ -200,4 +201,40 @@ footer ul li a:hover {
 
 .socialm a {
     color: #fff;
+}
+/* login page1 */
+
+.borderline {
+    border: 2px solid #dee2e6;;
+    padding: 23px;
+    border-radius: 20px;
+}
+
+.transparant {
+    background-color: #00000066;
+    color: white;
+    padding: 28px;
+    border-radius: 26px;
+    
+}
+/*login sofra*/
+.loginsofra {
+    font-size: 26px;
+}
+
+.loginp {
+    font-size: 13px;
+}
+.forgotbtn {
+    float: right;
+    margin-top: -15px;
+    font-size: 11px;
+}
+.signuplink{
+    font-size: 11px;
+    color: black;
+    margin-left: 82px;
+}
+.loginpagebtn{
+    background-color: #ED1C24;
 }
